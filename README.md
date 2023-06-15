@@ -4,7 +4,7 @@
 
 Angular 2+ File Uploader
 
-https://ngx-uploader.com
+https://ngx-uploader.petadev.work
 
 ## Installation
 

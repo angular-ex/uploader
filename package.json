@@ -1,9 +1,9 @@
 {
   "name": "ngx-uploader-demo",
-  "version": "14.0.2",
+  "version": "15.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bleenco/ngx-uploader.git"
+    "url": "git+https://github.com/angular-ex/ngx-uploader.git"
   },
   "authors": [
     "Thanh Pham <pnt239@gmail.com>",
@@ -11,9 +11,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bleenco/ngx-uploader/issues"
+    "url": "https://github.com/angular-ex/ngx-uploader/issues"
   },
-  "homepage": "http://ngx-uploader.com",
+  "homepage": "http://ngx-uploader.petadev.work",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open --proxy-config ./proxy.conf.json",
