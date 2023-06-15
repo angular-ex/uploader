@@ -1,7 +1,7 @@
 {
   "name": "@angular-ex/uploader",
-  "version": "14.0.2",
-  "homepage": "https://ngx-uploader.com",
+  "version": "15.0.0",
+  "homepage": "https://ngx-uploader.petadev.work",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/angular-ex/uploader.git"
@@ -13,6 +13,8 @@
   "license": "MIT",
   "keywords": [
     "angular",
+    "angular-components",
+    "angular-library",
     "angular-upload",
     "angular-uploader",
     "angular-upload-component",
@@ -35,8 +37,8 @@
     "url": "https://github.com/angular-ex/uploader/issues"
   },
   "peerDependencies": {
-    "@angular/common": ">= 14.0.0",
-    "@angular/core": ">= 14.0.0"
+    "@angular/common": ">= 15.0.0",
+    "@angular/core": ">= 15.0.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"

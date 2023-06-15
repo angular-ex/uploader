@@ -2,7 +2,7 @@
 
 Angular 2+ File Uploader
 
-http://ngx-uploader.com
+https://ngx-uploader.petadev.work
 
 #### <a name="question"></a> Got a Question or Problem?
 
@@ -168,7 +168,7 @@ startUpload(): void {
   let token = this.myToken;  // <----  get token
   const event: UploadInput = {
     type: 'uploadAll',
-    url: 'http://ngx-uploader.com/upload',
+    url: 'http://ngx-uploader.petadev.work/upload',
     method: 'POST',
     headers: { 'Authorization': 'JWT ' + token },  // <----  set headers
     data: { foo: 'bar' },
@@ -252,7 +252,7 @@ export class AppHomeComponent {
   startUpload(): void {
     const event: UploadInput = {
       type: 'uploadAll',
-      url: 'http://ngx-uploader.com/upload',
+      url: 'http://ngx-uploader.petadev.work/upload',
       method: 'POST',
       data: { foo: 'bar' }
     };
