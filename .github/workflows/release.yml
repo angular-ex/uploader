@@ -34,7 +34,7 @@ jobs:
       - name: Create release
         run: |
           VERSION=${GITHUB_REF/refs\/tags\//}
-          gh release create "${VERSION}" -t "${VERSION}"
+          gh release create "${VERSION}" -t "${VERSION}" --generate-notes
           gh release view "${VERSION}"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
