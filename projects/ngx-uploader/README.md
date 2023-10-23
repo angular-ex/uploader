@@ -1,5 +1,18 @@
 # ngx-uploader
 
+<!-- Badges -->
+<p align="center">
+  <a href="https://github.com/angular-ex/uploader/actions/workflows/development.yml">
+    <img alt="Test CI" src="https://github.com/angular-ex/uploader/actions/workflows/development.yml/badge.svg?branch=main&event=push" />
+  </a>
+  <a href="https://www.npmjs.com/package/@angular-ex/uploader">
+    <img alt="npm" src="https://img.shields.io/npm/v/@angular-ex/uploader.svg?style=flat-square" />
+  </a>
+  <a href="https://www.npmjs.com/package/@angular-ex/uploader">
+    <img alt="monthly downloads" src="https://img.shields.io/npm/dm/@angular-ex/uploader.svg?style=flat-square" />
+  </a>
+</p>
+
 Angular 2+ File Uploader
 
 https://ngx-uploader.petadev.work
