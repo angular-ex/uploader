@@ -11,6 +11,11 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ngx-uploader": [
+        "projects/ngx-uploader/src/public_api"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
@@ -22,12 +27,7 @@
     "lib": [
       "ES2022",
       "dom"
-    ],
-    "paths": {
-      "ngx-uploader": [
-        "projects/ngx-uploader/src/public_api"
-      ]
-    }
+    ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
